@@ -5,18 +5,16 @@
   /* The saved choice is read from every place that may hold it (local storage, session storage, window.name), because embedded
      previews and some privacy modes block or isolate storage per page. It is only the word "day" or "night"; nothing is sent anywhere. */
   var ok = function (v) { return v === 'day' || v === 'night' ? v : null; };
+  var store = (function () { try { var k = '__t'; localStorage.setItem(k, '1'); localStorage.removeItem(k); return true; } catch (e) { return false; } })();
   var fromName = function () { try { var m = (window.name || '').match(/(?:^|;)inizi_theme=(day|night)(?:;|$)/); return m ? m[1] : null; } catch (e) { return null; } };
   var toName = function (v) { try { window.name = (window.name || '').replace(/(?:^|;)inizi_theme=[a-z]*/g, '') + ';' + KEY + '=' + v; } catch (e) {} };
-  var get = function () {   /* this tab's latest choice first, then what the browser remembers */
-    var v = ok(fromName());
-    if (!v) { try { v = ok(localStorage.getItem(KEY)); } catch (e) {} }
-    if (!v) { try { v = ok(sessionStorage.getItem(KEY)); } catch (e) {} }
-    return v;
+  /* One source of truth: the browser's saved choice. Only when storage is blocked (some embedded previews) does the tab's window.name carry it. */
+  var get = function () {
+    if (store) { try { return ok(localStorage.getItem(KEY)); } catch (e) { return null; } }
+    return ok(fromName());
   };
   var save = function (v) {
-    try { localStorage.setItem(KEY, v); } catch (e) {}
-    try { sessionStorage.setItem(KEY, v); } catch (e) {}
-    toName(v);
+    if (store) { try { localStorage.setItem(KEY, v); } catch (e) {} } else toName(v);
   };
   var apply = function (t) {
     if (t === 'day') root.setAttribute('data-theme', 'light'); else root.removeAttribute('data-theme');
@@ -34,9 +32,10 @@
     else { try { sessionStorage.setItem('inizi_seen', '1'); } catch (e) {} try { window.name = (window.name || '') + ';inizi_seen=1'; } catch (e) {} }
   })();
   var cur = get() === 'day' ? 'day' : 'night';
-  apply(cur); toName(cur);
+  apply(cur);
   document.addEventListener('DOMContentLoaded', function () { apply(cur); });
   addEventListener('pageshow', function () { cur = get() === 'day' ? 'day' : 'night'; apply(cur); });   /* back/forward cache: re-read the saved choice */
+  addEventListener('storage', function (e) { if (e.key === KEY) { cur = ok(e.newValue) || 'night'; apply(cur); } });   /* another tab changed it: follow */
   document.addEventListener('click', function (e) {
     if (e.isTrusted === false) return;   /* only a real click/tap on the toggle changes the theme */
     var b = e.target.closest && e.target.closest('.theme'); if (!b) return;
