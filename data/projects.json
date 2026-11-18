@@ -1,0 +1,1031 @@
+{
+ "_note": "Single source for the Work page and the Home page. Edit a project here; set \"featured\": true on exactly three to show them on the home page.",
+ "projects": [
+  {
+   "id": 1,
+   "image": "dawn",
+   "featured": true,
+   "gallery": [
+    "bts-5",
+    "bts-6",
+    "bts-8"
+   ],
+   "en": {
+    "cube": "Project",
+    "title": "Project title",
+    "client": "Client name",
+    "year": "2026",
+    "service": "Travel film",
+    "role": "Direction, DP, edit",
+    "format": "16:9 · 4K",
+    "overview": "A short description of the project: what the film is about, the idea behind it and what makes it feel like this client. Two or three sentences.",
+    "brief": "What the client asked for: the goal, the audience, the constraints and the deadline. Two or three sentences.",
+    "deliverables": [
+     [
+      "Hero film",
+      "90 seconds · 16:9 · 4K"
+     ],
+     [
+      "Cut-downs",
+      "6 × 15 seconds · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 seconds · 1:1"
+     ],
+     [
+      "Photo selects",
+      "24 stills"
+     ]
+    ],
+    "locations": [
+     "Location one, Country",
+     "Location two, Country",
+     "Location three, Country"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Views"
+     ],
+     [
+      "79%",
+      "Engagement rate"
+     ],
+     [
+      "12",
+      "Shoot days"
+     ],
+     [
+      "3",
+      "Markets"
+     ]
+    ]
+   },
+   "et": {
+    "cube": "Projekt",
+    "title": "Projekti pealkiri",
+    "client": "Kliendi nimi",
+    "year": "2026",
+    "service": "Reisifilm",
+    "role": "Režii, DP, montaaž",
+    "format": "16:9 · 4K",
+    "overview": "Lühikirjeldus projektist: millest film räägib, milline on idee ja mis teeb selle just selle kliendi nägu. Kaks-kolm lauset.",
+    "brief": "Mida klient soovis: eesmärk, sihtrühm, piirangud ja tähtaeg. Kaks-kolm lauset.",
+    "deliverables": [
+     [
+      "Põhifilm",
+      "90 sekundit · 16:9 · 4K"
+     ],
+     [
+      "Lühiversioonid",
+      "6 × 15 sekundit · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 sekundit · 1:1"
+     ],
+     [
+      "Fotovalik",
+      "24 kaadrit"
+     ]
+    ],
+    "locations": [
+     "Esimene koht, Riik",
+     "Teine koht, Riik",
+     "Kolmas koht, Riik"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Vaatamist"
+     ],
+     [
+      "79%",
+      "Kaasatus"
+     ],
+     [
+      "12",
+      "Võttepäeva"
+     ],
+     [
+      "3",
+      "Turgu"
+     ]
+    ]
+   }
+  },
+  {
+   "id": 2,
+   "image": "flare",
+   "featured": true,
+   "gallery": [
+    "bts-6",
+    "bts-8",
+    "bts-3"
+   ],
+   "en": {
+    "cube": "Project",
+    "title": "Project title",
+    "client": "Client name",
+    "year": "2026",
+    "service": "Travel film",
+    "role": "Direction, DP, edit",
+    "format": "16:9 · 4K",
+    "overview": "A short description of the project: what the film is about, the idea behind it and what makes it feel like this client. Two or three sentences.",
+    "brief": "What the client asked for: the goal, the audience, the constraints and the deadline. Two or three sentences.",
+    "deliverables": [
+     [
+      "Hero film",
+      "90 seconds · 16:9 · 4K"
+     ],
+     [
+      "Cut-downs",
+      "6 × 15 seconds · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 seconds · 1:1"
+     ],
+     [
+      "Photo selects",
+      "24 stills"
+     ]
+    ],
+    "locations": [
+     "Location one, Country",
+     "Location two, Country",
+     "Location three, Country"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Views"
+     ],
+     [
+      "79%",
+      "Engagement rate"
+     ],
+     [
+      "12",
+      "Shoot days"
+     ],
+     [
+      "3",
+      "Markets"
+     ]
+    ]
+   },
+   "et": {
+    "cube": "Projekt",
+    "title": "Projekti pealkiri",
+    "client": "Kliendi nimi",
+    "year": "2026",
+    "service": "Reisifilm",
+    "role": "Režii, DP, montaaž",
+    "format": "16:9 · 4K",
+    "overview": "Lühikirjeldus projektist: millest film räägib, milline on idee ja mis teeb selle just selle kliendi nägu. Kaks-kolm lauset.",
+    "brief": "Mida klient soovis: eesmärk, sihtrühm, piirangud ja tähtaeg. Kaks-kolm lauset.",
+    "deliverables": [
+     [
+      "Põhifilm",
+      "90 sekundit · 16:9 · 4K"
+     ],
+     [
+      "Lühiversioonid",
+      "6 × 15 sekundit · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 sekundit · 1:1"
+     ],
+     [
+      "Fotovalik",
+      "24 kaadrit"
+     ]
+    ],
+    "locations": [
+     "Esimene koht, Riik",
+     "Teine koht, Riik",
+     "Kolmas koht, Riik"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Vaatamist"
+     ],
+     [
+      "79%",
+      "Kaasatus"
+     ],
+     [
+      "12",
+      "Võttepäeva"
+     ],
+     [
+      "3",
+      "Turgu"
+     ]
+    ]
+   }
+  },
+  {
+   "id": 3,
+   "image": "ridge",
+   "featured": true,
+   "gallery": [
+    "bts-8",
+    "bts-3",
+    "bts-1"
+   ],
+   "en": {
+    "cube": "Project",
+    "title": "Project title",
+    "client": "Client name",
+    "year": "2026",
+    "service": "Travel film",
+    "role": "Direction, DP, edit",
+    "format": "16:9 · 4K",
+    "overview": "A short description of the project: what the film is about, the idea behind it and what makes it feel like this client. Two or three sentences.",
+    "brief": "What the client asked for: the goal, the audience, the constraints and the deadline. Two or three sentences.",
+    "deliverables": [
+     [
+      "Hero film",
+      "90 seconds · 16:9 · 4K"
+     ],
+     [
+      "Cut-downs",
+      "6 × 15 seconds · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 seconds · 1:1"
+     ],
+     [
+      "Photo selects",
+      "24 stills"
+     ]
+    ],
+    "locations": [
+     "Location one, Country",
+     "Location two, Country",
+     "Location three, Country"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Views"
+     ],
+     [
+      "79%",
+      "Engagement rate"
+     ],
+     [
+      "12",
+      "Shoot days"
+     ],
+     [
+      "3",
+      "Markets"
+     ]
+    ]
+   },
+   "et": {
+    "cube": "Projekt",
+    "title": "Projekti pealkiri",
+    "client": "Kliendi nimi",
+    "year": "2026",
+    "service": "Reisifilm",
+    "role": "Režii, DP, montaaž",
+    "format": "16:9 · 4K",
+    "overview": "Lühikirjeldus projektist: millest film räägib, milline on idee ja mis teeb selle just selle kliendi nägu. Kaks-kolm lauset.",
+    "brief": "Mida klient soovis: eesmärk, sihtrühm, piirangud ja tähtaeg. Kaks-kolm lauset.",
+    "deliverables": [
+     [
+      "Põhifilm",
+      "90 sekundit · 16:9 · 4K"
+     ],
+     [
+      "Lühiversioonid",
+      "6 × 15 sekundit · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 sekundit · 1:1"
+     ],
+     [
+      "Fotovalik",
+      "24 kaadrit"
+     ]
+    ],
+    "locations": [
+     "Esimene koht, Riik",
+     "Teine koht, Riik",
+     "Kolmas koht, Riik"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Vaatamist"
+     ],
+     [
+      "79%",
+      "Kaasatus"
+     ],
+     [
+      "12",
+      "Võttepäeva"
+     ],
+     [
+      "3",
+      "Turgu"
+     ]
+    ]
+   }
+  },
+  {
+   "id": 4,
+   "image": "forest",
+   "featured": false,
+   "gallery": [
+    "bts-3",
+    "bts-1",
+    "bts-2"
+   ],
+   "en": {
+    "cube": "Project",
+    "title": "Project title",
+    "client": "Client name",
+    "year": "2026",
+    "service": "Travel film",
+    "role": "Direction, DP, edit",
+    "format": "16:9 · 4K",
+    "overview": "A short description of the project: what the film is about, the idea behind it and what makes it feel like this client. Two or three sentences.",
+    "brief": "What the client asked for: the goal, the audience, the constraints and the deadline. Two or three sentences.",
+    "deliverables": [
+     [
+      "Hero film",
+      "90 seconds · 16:9 · 4K"
+     ],
+     [
+      "Cut-downs",
+      "6 × 15 seconds · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 seconds · 1:1"
+     ],
+     [
+      "Photo selects",
+      "24 stills"
+     ]
+    ],
+    "locations": [
+     "Location one, Country",
+     "Location two, Country",
+     "Location three, Country"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Views"
+     ],
+     [
+      "79%",
+      "Engagement rate"
+     ],
+     [
+      "12",
+      "Shoot days"
+     ],
+     [
+      "3",
+      "Markets"
+     ]
+    ]
+   },
+   "et": {
+    "cube": "Projekt",
+    "title": "Projekti pealkiri",
+    "client": "Kliendi nimi",
+    "year": "2026",
+    "service": "Reisifilm",
+    "role": "Režii, DP, montaaž",
+    "format": "16:9 · 4K",
+    "overview": "Lühikirjeldus projektist: millest film räägib, milline on idee ja mis teeb selle just selle kliendi nägu. Kaks-kolm lauset.",
+    "brief": "Mida klient soovis: eesmärk, sihtrühm, piirangud ja tähtaeg. Kaks-kolm lauset.",
+    "deliverables": [
+     [
+      "Põhifilm",
+      "90 sekundit · 16:9 · 4K"
+     ],
+     [
+      "Lühiversioonid",
+      "6 × 15 sekundit · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 sekundit · 1:1"
+     ],
+     [
+      "Fotovalik",
+      "24 kaadrit"
+     ]
+    ],
+    "locations": [
+     "Esimene koht, Riik",
+     "Teine koht, Riik",
+     "Kolmas koht, Riik"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Vaatamist"
+     ],
+     [
+      "79%",
+      "Kaasatus"
+     ],
+     [
+      "12",
+      "Võttepäeva"
+     ],
+     [
+      "3",
+      "Turgu"
+     ]
+    ]
+   }
+  },
+  {
+   "id": 5,
+   "image": "coast",
+   "featured": false,
+   "gallery": [
+    "bts-1",
+    "bts-2",
+    "bts-5"
+   ],
+   "en": {
+    "cube": "Project",
+    "title": "Project title",
+    "client": "Client name",
+    "year": "2026",
+    "service": "Travel film",
+    "role": "Direction, DP, edit",
+    "format": "16:9 · 4K",
+    "overview": "A short description of the project: what the film is about, the idea behind it and what makes it feel like this client. Two or three sentences.",
+    "brief": "What the client asked for: the goal, the audience, the constraints and the deadline. Two or three sentences.",
+    "deliverables": [
+     [
+      "Hero film",
+      "90 seconds · 16:9 · 4K"
+     ],
+     [
+      "Cut-downs",
+      "6 × 15 seconds · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 seconds · 1:1"
+     ],
+     [
+      "Photo selects",
+      "24 stills"
+     ]
+    ],
+    "locations": [
+     "Location one, Country",
+     "Location two, Country",
+     "Location three, Country"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Views"
+     ],
+     [
+      "79%",
+      "Engagement rate"
+     ],
+     [
+      "12",
+      "Shoot days"
+     ],
+     [
+      "3",
+      "Markets"
+     ]
+    ]
+   },
+   "et": {
+    "cube": "Projekt",
+    "title": "Projekti pealkiri",
+    "client": "Kliendi nimi",
+    "year": "2026",
+    "service": "Reisifilm",
+    "role": "Režii, DP, montaaž",
+    "format": "16:9 · 4K",
+    "overview": "Lühikirjeldus projektist: millest film räägib, milline on idee ja mis teeb selle just selle kliendi nägu. Kaks-kolm lauset.",
+    "brief": "Mida klient soovis: eesmärk, sihtrühm, piirangud ja tähtaeg. Kaks-kolm lauset.",
+    "deliverables": [
+     [
+      "Põhifilm",
+      "90 sekundit · 16:9 · 4K"
+     ],
+     [
+      "Lühiversioonid",
+      "6 × 15 sekundit · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 sekundit · 1:1"
+     ],
+     [
+      "Fotovalik",
+      "24 kaadrit"
+     ]
+    ],
+    "locations": [
+     "Esimene koht, Riik",
+     "Teine koht, Riik",
+     "Kolmas koht, Riik"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Vaatamist"
+     ],
+     [
+      "79%",
+      "Kaasatus"
+     ],
+     [
+      "12",
+      "Võttepäeva"
+     ],
+     [
+      "3",
+      "Turgu"
+     ]
+    ]
+   }
+  },
+  {
+   "id": 6,
+   "image": "falls",
+   "featured": false,
+   "gallery": [
+    "bts-2",
+    "bts-5",
+    "bts-6"
+   ],
+   "en": {
+    "cube": "Project",
+    "title": "Project title",
+    "client": "Client name",
+    "year": "2026",
+    "service": "Travel film",
+    "role": "Direction, DP, edit",
+    "format": "16:9 · 4K",
+    "overview": "A short description of the project: what the film is about, the idea behind it and what makes it feel like this client. Two or three sentences.",
+    "brief": "What the client asked for: the goal, the audience, the constraints and the deadline. Two or three sentences.",
+    "deliverables": [
+     [
+      "Hero film",
+      "90 seconds · 16:9 · 4K"
+     ],
+     [
+      "Cut-downs",
+      "6 × 15 seconds · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 seconds · 1:1"
+     ],
+     [
+      "Photo selects",
+      "24 stills"
+     ]
+    ],
+    "locations": [
+     "Location one, Country",
+     "Location two, Country",
+     "Location three, Country"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Views"
+     ],
+     [
+      "79%",
+      "Engagement rate"
+     ],
+     [
+      "12",
+      "Shoot days"
+     ],
+     [
+      "3",
+      "Markets"
+     ]
+    ]
+   },
+   "et": {
+    "cube": "Projekt",
+    "title": "Projekti pealkiri",
+    "client": "Kliendi nimi",
+    "year": "2026",
+    "service": "Reisifilm",
+    "role": "Režii, DP, montaaž",
+    "format": "16:9 · 4K",
+    "overview": "Lühikirjeldus projektist: millest film räägib, milline on idee ja mis teeb selle just selle kliendi nägu. Kaks-kolm lauset.",
+    "brief": "Mida klient soovis: eesmärk, sihtrühm, piirangud ja tähtaeg. Kaks-kolm lauset.",
+    "deliverables": [
+     [
+      "Põhifilm",
+      "90 sekundit · 16:9 · 4K"
+     ],
+     [
+      "Lühiversioonid",
+      "6 × 15 sekundit · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 sekundit · 1:1"
+     ],
+     [
+      "Fotovalik",
+      "24 kaadrit"
+     ]
+    ],
+    "locations": [
+     "Esimene koht, Riik",
+     "Teine koht, Riik",
+     "Kolmas koht, Riik"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Vaatamist"
+     ],
+     [
+      "79%",
+      "Kaasatus"
+     ],
+     [
+      "12",
+      "Võttepäeva"
+     ],
+     [
+      "3",
+      "Turgu"
+     ]
+    ]
+   }
+  },
+  {
+   "id": 7,
+   "image": "ridge",
+   "featured": false,
+   "gallery": [
+    "bts-5",
+    "bts-6",
+    "bts-8"
+   ],
+   "en": {
+    "cube": "Project",
+    "title": "Project title",
+    "client": "Client name",
+    "year": "2026",
+    "service": "Travel film",
+    "role": "Direction, DP, edit",
+    "format": "16:9 · 4K",
+    "overview": "A short description of the project: what the film is about, the idea behind it and what makes it feel like this client. Two or three sentences.",
+    "brief": "What the client asked for: the goal, the audience, the constraints and the deadline. Two or three sentences.",
+    "deliverables": [
+     [
+      "Hero film",
+      "90 seconds · 16:9 · 4K"
+     ],
+     [
+      "Cut-downs",
+      "6 × 15 seconds · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 seconds · 1:1"
+     ],
+     [
+      "Photo selects",
+      "24 stills"
+     ]
+    ],
+    "locations": [
+     "Location one, Country",
+     "Location two, Country",
+     "Location three, Country"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Views"
+     ],
+     [
+      "79%",
+      "Engagement rate"
+     ],
+     [
+      "12",
+      "Shoot days"
+     ],
+     [
+      "3",
+      "Markets"
+     ]
+    ]
+   },
+   "et": {
+    "cube": "Projekt",
+    "title": "Projekti pealkiri",
+    "client": "Kliendi nimi",
+    "year": "2026",
+    "service": "Reisifilm",
+    "role": "Režii, DP, montaaž",
+    "format": "16:9 · 4K",
+    "overview": "Lühikirjeldus projektist: millest film räägib, milline on idee ja mis teeb selle just selle kliendi nägu. Kaks-kolm lauset.",
+    "brief": "Mida klient soovis: eesmärk, sihtrühm, piirangud ja tähtaeg. Kaks-kolm lauset.",
+    "deliverables": [
+     [
+      "Põhifilm",
+      "90 sekundit · 16:9 · 4K"
+     ],
+     [
+      "Lühiversioonid",
+      "6 × 15 sekundit · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 sekundit · 1:1"
+     ],
+     [
+      "Fotovalik",
+      "24 kaadrit"
+     ]
+    ],
+    "locations": [
+     "Esimene koht, Riik",
+     "Teine koht, Riik",
+     "Kolmas koht, Riik"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Vaatamist"
+     ],
+     [
+      "79%",
+      "Kaasatus"
+     ],
+     [
+      "12",
+      "Võttepäeva"
+     ],
+     [
+      "3",
+      "Turgu"
+     ]
+    ]
+   }
+  },
+  {
+   "id": 8,
+   "image": "dawn",
+   "featured": false,
+   "gallery": [
+    "bts-6",
+    "bts-8",
+    "bts-3"
+   ],
+   "en": {
+    "cube": "Project",
+    "title": "Project title",
+    "client": "Client name",
+    "year": "2026",
+    "service": "Travel film",
+    "role": "Direction, DP, edit",
+    "format": "16:9 · 4K",
+    "overview": "A short description of the project: what the film is about, the idea behind it and what makes it feel like this client. Two or three sentences.",
+    "brief": "What the client asked for: the goal, the audience, the constraints and the deadline. Two or three sentences.",
+    "deliverables": [
+     [
+      "Hero film",
+      "90 seconds · 16:9 · 4K"
+     ],
+     [
+      "Cut-downs",
+      "6 × 15 seconds · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 seconds · 1:1"
+     ],
+     [
+      "Photo selects",
+      "24 stills"
+     ]
+    ],
+    "locations": [
+     "Location one, Country",
+     "Location two, Country",
+     "Location three, Country"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Views"
+     ],
+     [
+      "79%",
+      "Engagement rate"
+     ],
+     [
+      "12",
+      "Shoot days"
+     ],
+     [
+      "3",
+      "Markets"
+     ]
+    ]
+   },
+   "et": {
+    "cube": "Projekt",
+    "title": "Projekti pealkiri",
+    "client": "Kliendi nimi",
+    "year": "2026",
+    "service": "Reisifilm",
+    "role": "Režii, DP, montaaž",
+    "format": "16:9 · 4K",
+    "overview": "Lühikirjeldus projektist: millest film räägib, milline on idee ja mis teeb selle just selle kliendi nägu. Kaks-kolm lauset.",
+    "brief": "Mida klient soovis: eesmärk, sihtrühm, piirangud ja tähtaeg. Kaks-kolm lauset.",
+    "deliverables": [
+     [
+      "Põhifilm",
+      "90 sekundit · 16:9 · 4K"
+     ],
+     [
+      "Lühiversioonid",
+      "6 × 15 sekundit · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 sekundit · 1:1"
+     ],
+     [
+      "Fotovalik",
+      "24 kaadrit"
+     ]
+    ],
+    "locations": [
+     "Esimene koht, Riik",
+     "Teine koht, Riik",
+     "Kolmas koht, Riik"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Vaatamist"
+     ],
+     [
+      "79%",
+      "Kaasatus"
+     ],
+     [
+      "12",
+      "Võttepäeva"
+     ],
+     [
+      "3",
+      "Turgu"
+     ]
+    ]
+   }
+  },
+  {
+   "id": 9,
+   "image": "flare",
+   "featured": false,
+   "gallery": [
+    "bts-8",
+    "bts-3",
+    "bts-1"
+   ],
+   "en": {
+    "cube": "Project",
+    "title": "Project title",
+    "client": "Client name",
+    "year": "2026",
+    "service": "Travel film",
+    "role": "Direction, DP, edit",
+    "format": "16:9 · 4K",
+    "overview": "A short description of the project: what the film is about, the idea behind it and what makes it feel like this client. Two or three sentences.",
+    "brief": "What the client asked for: the goal, the audience, the constraints and the deadline. Two or three sentences.",
+    "deliverables": [
+     [
+      "Hero film",
+      "90 seconds · 16:9 · 4K"
+     ],
+     [
+      "Cut-downs",
+      "6 × 15 seconds · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 seconds · 1:1"
+     ],
+     [
+      "Photo selects",
+      "24 stills"
+     ]
+    ],
+    "locations": [
+     "Location one, Country",
+     "Location two, Country",
+     "Location three, Country"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Views"
+     ],
+     [
+      "79%",
+      "Engagement rate"
+     ],
+     [
+      "12",
+      "Shoot days"
+     ],
+     [
+      "3",
+      "Markets"
+     ]
+    ]
+   },
+   "et": {
+    "cube": "Projekt",
+    "title": "Projekti pealkiri",
+    "client": "Kliendi nimi",
+    "year": "2026",
+    "service": "Reisifilm",
+    "role": "Režii, DP, montaaž",
+    "format": "16:9 · 4K",
+    "overview": "Lühikirjeldus projektist: millest film räägib, milline on idee ja mis teeb selle just selle kliendi nägu. Kaks-kolm lauset.",
+    "brief": "Mida klient soovis: eesmärk, sihtrühm, piirangud ja tähtaeg. Kaks-kolm lauset.",
+    "deliverables": [
+     [
+      "Põhifilm",
+      "90 sekundit · 16:9 · 4K"
+     ],
+     [
+      "Lühiversioonid",
+      "6 × 15 sekundit · 9:16"
+     ],
+     [
+      "Teaser",
+      "30 sekundit · 1:1"
+     ],
+     [
+      "Fotovalik",
+      "24 kaadrit"
+     ]
+    ],
+    "locations": [
+     "Esimene koht, Riik",
+     "Teine koht, Riik",
+     "Kolmas koht, Riik"
+    ],
+    "kpis": [
+     [
+      "2.1M",
+      "Vaatamist"
+     ],
+     [
+      "79%",
+      "Kaasatus"
+     ],
+     [
+      "12",
+      "Võttepäeva"
+     ],
+     [
+      "3",
+      "Turgu"
+     ]
+    ]
+   }
+  }
+ ]
+}

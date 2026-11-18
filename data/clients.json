@@ -1,0 +1,45 @@
+{
+ "_note": "Logos are white PNGs in assets/img/clients/. Add or remove entries to change the grid; a null logo shows a placeholder.",
+ "clients": [
+  {
+   "name": "DJI",
+   "logo": "dji.png"
+  },
+  {
+   "name": "Qatar Airways",
+   "logo": "qatar-airways.png"
+  },
+  {
+   "name": "Beautiful Destinations",
+   "logo": "beautiful-destinations.png"
+  },
+  {
+   "name": "Sony",
+   "logo": "sony.png"
+  },
+  {
+   "name": "Expedia",
+   "logo": "expedia.png"
+  },
+  {
+   "name": "LVMH",
+   "logo": "lvmh.png"
+  },
+  {
+   "name": "American Express",
+   "logo": "american-express.png"
+  },
+  {
+   "name": "The Red Sea",
+   "logo": "the-red-sea.png"
+  },
+  {
+   "name": "Dubai",
+   "logo": "dubai.png"
+  },
+  {
+   "name": "VisitMalta.com",
+   "logo": "visit-malta.png"
+  }
+ ]
+}

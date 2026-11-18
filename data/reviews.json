@@ -1,0 +1,41 @@
+{
+ "_note": "Client comments shown on the Home page. Replace the placeholders with real, approved quotes.",
+ "reviews": [
+  {
+   "en": {
+    "quote": "Placeholder for a client comment: one or two sentences on what it was like to work with Inizi and what the film did for the brand.",
+    "name": "Client name",
+    "company": "Company, role"
+   },
+   "et": {
+    "quote": "Kohatäide kliendi kommentaarile: üks-kaks lauset sellest, kuidas oli Iniziga töötada ja mida film brändi heaks tegi.",
+    "name": "Kliendi nimi",
+    "company": "Ettevõte, roll"
+   }
+  },
+  {
+   "en": {
+    "quote": "Placeholder for a client comment: one or two sentences on what it was like to work with Inizi and what the film did for the brand.",
+    "name": "Client name",
+    "company": "Company, role"
+   },
+   "et": {
+    "quote": "Kohatäide kliendi kommentaarile: üks-kaks lauset sellest, kuidas oli Iniziga töötada ja mida film brändi heaks tegi.",
+    "name": "Kliendi nimi",
+    "company": "Ettevõte, roll"
+   }
+  },
+  {
+   "en": {
+    "quote": "Placeholder for a client comment: one or two sentences on what it was like to work with Inizi and what the film did for the brand.",
+    "name": "Client name",
+    "company": "Company, role"
+   },
+   "et": {
+    "quote": "Kohatäide kliendi kommentaarile: üks-kaks lauset sellest, kuidas oli Iniziga töötada ja mida film brändi heaks tegi.",
+    "name": "Kliendi nimi",
+    "company": "Ettevõte, roll"
+   }
+  }
+ ]
+}
