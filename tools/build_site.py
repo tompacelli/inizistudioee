@@ -93,7 +93,7 @@ def img(name, alt, lazy=True):
 def body_index(L):
     c = C[L]
     if L == 'en':
-        s1_h = 'A film company for the stories that <em>begin something.</em>'
+        s1_h = 'A film company for the stories that <em>mean something.</em>'
         s1_p = 'We are Johanna-Liisa and Tom, filmmakers based in Tallinn. Inizi means beginnings, and it is how we work: every film starts with a clear idea, natural light and people who care how it looks and moves.'
         s1_b = 'About us'
         s2_l = 'What we make'; s2 = [('Travel &amp; destination films','Hotels, resorts and destinations, shot to make people want to go.'),('Branded content &amp; marketing','Campaign films, brand stories and a steady rhythm of social video.'),('Music &amp; events','Music videos and festival aftermovies, when the room has the energy.')]
@@ -103,7 +103,7 @@ def body_index(L):
         cta_h = 'Have a story <em>to begin?</em>'
         marq=['Brand films','Festival aftermovies','Music filmmaking','Social &amp; retainers']; wl_='Where we work'; wh_='Based in Tallinn. <em>Working worldwide.</em>'; line = 'Brand films · Festival aftermovies · Music filmmaking'; foot_l = 'Estonia — Worldwide'; foot_r = 'Scroll'; studio_l='About'
     else:
-        s1_h = 'Filmifirma lugudele, mis <em>midagi algatavad.</em>'
+        s1_h = 'Filmifirma lugudele, mis <em>midagi tähendavad.</em>'
         s1_p = 'Meie oleme Johanna-Liisa ja Tom, Tallinnas tegutsevad filmitegijad. Inizi tähendab algust ja nii me töötamegi: iga film algab selgest ideest, loomulikust valgusest ja inimestest, kellele läheb korda, kuidas see välja näeb ja liigub.'
         s1_b = 'Meist'
         s2_l = 'Mida me teeme'; s2 = [('Reisi- ja sihtkohafilmid','Hotellid, kuurordid ja sihtkohad, filmitud nii, et inimesed tahavad minna.'),('Brändisisu ja turundus','Kampaaniafilmid, brändilood ja pidev sotsiaalmeedia videorütm.'),('Muusika ja eventid','Muusikavideod ja festivalide aftermovie’d, kui ruumis on energiat.')]

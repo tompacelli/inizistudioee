@@ -5,6 +5,21 @@
   var root = document.documentElement, loader = document.querySelector('.loader');
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   var ready = function () { root.classList.add('is-ready'); };
+  /* between pages: no loader, only a fade out of the old page and a fade in of the new one */
+  var go = function () {
+    addEventListener('pageshow', function (e) { if (e.persisted) root.classList.remove('is-leaving'); });
+    document.addEventListener('click', function (e) {
+      if (e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      var a = e.target.closest && e.target.closest('a[href]'); if (!a || a.target === '_blank' || a.hasAttribute('download')) return;
+      var u; try { u = new URL(a.href, location.href); } catch (x) { return; }
+      if (u.origin !== location.origin || (u.pathname === location.pathname && u.search === location.search)) return;   /* external, mailto, same-page and #project links: untouched */
+      if (reduce) return;
+      e.preventDefault(); root.classList.add('is-leaving');
+      setTimeout(function () { location.href = a.href; }, 260);
+    });
+  };
+  go();
+  if (root.classList.contains('no-intro')) { ready(); if (loader) loader.style.display = 'none'; return; }
   if (!loader) { ready(); return; }
   var bar = loader.querySelector('.loader__bar i');
   var MIN = reduce ? 0 : 1300;          /* let the III finish its 1.2s fade */

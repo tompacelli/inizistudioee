@@ -24,6 +24,14 @@
     var b = document.querySelector('.theme');
     if (b) { b.setAttribute('aria-pressed', String(t === 'day')); b.setAttribute('aria-label', t === 'day' ? b.dataset.toNight : b.dataset.toDay); }
   };
+  /* Intro (the III loader) plays once per visit: on the first page of a session. Later pages only fade. */
+  (function () {
+    var seen = false;
+    try { seen = sessionStorage.getItem('inizi_seen') === '1'; } catch (e) {}
+    if (!seen) seen = /(?:^|;)inizi_seen=1(?:;|$)/.test(window.name || '');
+    if (seen) root.classList.add('no-intro');
+    else { try { sessionStorage.setItem('inizi_seen', '1'); } catch (e) {} try { window.name = (window.name || '') + ';inizi_seen=1'; } catch (e) {} }
+  })();
   var cur = get() === 'day' ? 'day' : 'night';
   apply(cur); toName(cur);
   document.addEventListener('DOMContentLoaded', function () { apply(cur); });
