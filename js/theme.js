@@ -29,6 +29,7 @@
     var seen = false;
     try { seen = sessionStorage.getItem('inizi_seen') === '1'; } catch (e) {}
     if (!seen) seen = /(?:^|;)inizi_seen=1(?:;|$)/.test(window.name || '');
+    if (!seen) { try { seen = !!document.referrer && new URL(document.referrer).host === location.host; } catch (e) {} }   /* arrived from another page of this site: works even where storage is blocked */
     if (seen) root.classList.add('no-intro');
     else { try { sessionStorage.setItem('inizi_seen', '1'); } catch (e) {} try { window.name = (window.name || '') + ';inizi_seen=1'; } catch (e) {} }
   })();
